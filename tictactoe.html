@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width">
+  	<meta name="keywords" content="HTML,CSS,jQuery,JavaScript">
+  	<meta name="description" content="Free 2 Player Tic-Tac-Toe Game Done With HTML, CSS and jQuery">
+  	<meta name="author" content="Alexandru Marinescu">
+	<title>Tic-Tac-Toe || Alexandru Marinescu</title>
+	<link rel="stylesheet" type="text/css" href="tictactoe.css">
+</head>
+<body>
+	<div class="game">
+		<h1>TIC<span id="tac">-TAC-</span><span id="toe">TOE</span></h1>
+		<div id="h2">
+			<h2 id="h2x">X - Player 1: <span id="spanX">0</span></h2>
+			<h2 id="h2o">O - Player 2: <span id="spanO">0</span></h2>
+		</div>
+		<div id="start"><button id="startBtn">START GAME</button></div>
+
+		<div id="board">
+			<table>
+			    <tr>
+			        <td id="td1"></td>
+			        <td id="td2"></td>
+			        <td id="td3"></td>
+			    </tr>
+			    <tr>
+			        <td id="td4"></td>
+			        <td id="td5"></td>
+			        <td id="td6"></td>
+			    </tr>
+			    <tr>
+			        <td id="td7"></td>
+			        <td id="td8"></td>
+			        <td id="td9"></td>
+			    </tr>
+			</table>
+			<div id="info">
+				<strong>Tic-tac-toe</strong> (also known as Xs and Os) is a paper-and-pencil game for two players, <strong>X</strong> and <strong>O</strong>, who take turns marking the spaces in a <strong>3×3 grid</strong>. The player who succeeds in placing three of their marks in a <strong>horizontal</strong>, <strong>vertical</strong>, or <strong>diagonal row</strong> wins the game.
+			</div>			
+		</div>
+		<div id="h3"><h3></h3></div>
+
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="tictactoe.js"></script>
+</body>
+</html>
